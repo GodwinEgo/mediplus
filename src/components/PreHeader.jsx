@@ -1,4 +1,5 @@
 import {Link} from "react-router-dom";
+import '../themify-icons/css/themify-icons.css'
 
 const PreHeader = () => {
     return (<div>

@@ -192,12 +192,15 @@ Preheader Area CSS
     border-bottom: 1px solid #777;
     display: flex;
     justify-content: space-between;
+    font-size: 13px;
+    align-items: center;
 }
 
 .PreHeader__nav ul {
     display: flex;
     justify-content: space-between;
-    width: 40%;
+    width: 20%;
+    list-style: none;
 }
 
 .PreHeader__nav .contact {
