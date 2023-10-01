@@ -1,7 +1,9 @@
+import PreHeader from "../../components/PreHeader.jsx";
+
 const HomePage = () => {
     return (
         <div>
-            Home Page
+           <PreHeader/>
         </div>
     );
 }
