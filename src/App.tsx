@@ -1,18 +1,18 @@
-import * as React from "react"
-import {Box, ChakraProvider, Grid, theme,} from "@chakra-ui/react"
-import {ColorModeSwitcher} from "./ColorModeSwitcher"
+import React from "react";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
-import {Home} from "../pages/index"
+import {Home, Register} from "./pages"
 
-export const App = () => (<ChakraProvider theme={theme}>
-    <Box textAlign="center" fontSize="xl">
-        <Grid minH="100vh" p={3}>
-            <ColorModeSwitcher justifySelf="flex-end"/>
+const App: React.FC = () => {
+    return (
+        <>
             <BrowserRouter>
                 <Routes>
-                    <Route path="/" element={Home}/>
+                    <Route path="/" element={<Home/>}/>
+                    <Route path="/register" element={<Register/>}/>
                 </Routes>
             </BrowserRouter>
-        </Grid>
-    </Box>
-</ChakraProvider>)
+        </>
+    )
+}
+
+export default App

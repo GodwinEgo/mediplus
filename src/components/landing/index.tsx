@@ -1,0 +1,1 @@
+import {Box, Text} from "@chakra-ui/react";import React from "react";import {CircleSVG} from "../index";export const Landing: React.FC = () => {    return (        <Box height="100%" width="50%" backgroundColor="#2468EB">            <Text fontSize="2xl">Landing</Text>            <CircleSVG/>        </Box>    )}
