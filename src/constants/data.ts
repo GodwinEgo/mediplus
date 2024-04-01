@@ -1,0 +1,1 @@
+import {BookmarkIcon, NoteIcon, TodoIcon} from "../icons/CustomIcon";export const LandingBox = [    {        icon: TodoIcon,        title: "TODOS",    },    {        icon: NoteIcon,        title: "NOTES",    },    {        icon: BookmarkIcon,        title: "BOOKMARKS",    },]
